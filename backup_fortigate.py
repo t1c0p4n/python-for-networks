@@ -6,9 +6,9 @@ from netmiko import Netmiko
 filename = 'backup.bkp'
 data_atual = date.today()
 
-fw_01 = {'host': '192.168.0.21',
+fw_01 = {'host': '192.168.0.1',
 		 'username':'admin',
-		 'password':'Password@123',
+		 'password':'Password',
 		 'device_type': 'fortinet'
 	}
 print(f"{'#'*20} Connecting to the Device {'#'*20}")
